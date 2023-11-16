@@ -1,4 +1,4 @@
-import Torneos from "@/components/torneos";
+import Torneos from "@/components/MostrarTorneos";
 
 export default function Home() {
   return <>Pagina pricipal</>;

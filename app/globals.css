@@ -1,8 +1,92 @@
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
   padding: 0;
   margin: 0;
+}
+
+table.torneos-table {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+/* Estilo para las celdas de encabezado */
+table.torneos-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para las celdas de datos */
+table.torneos-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para el encabezado de la página */
+.TituloTorneos {
+  font-size: 50px;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 100px;
+  background-color: rgb(212, 212, 212);
+}
+
+/* Estilo para las celdas de datos de la tabla */
+.datos-torneo {
+  text-align: left;
+}
+
+contenedor-torneo{
+  display: inline-block;
+  width: 60%;
+  
+}
+
+button {
+  background-color: #007BFF; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+/* Estilo al pasar el cursor por encima del botón */
+button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar por encima */
+}
+
+/* Estilo al presionar el botón */
+button:active {
+  background-color: #004294; /* Cambia el color de fondo al presionar el botón */
+}
+
+/* Estilo para la etiqueta */
+label {
+  margin: 20px;
+  margin-bottom: 5px; /* Espaciado entre la etiqueta y el campo de entrada */
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para el campo de entrada */
+input[type="text"] {
+  width: 300px; /* Hace que el campo de entrada ocupe toda la anchura disponible */
+  padding: 10px; /* Espaciado interno del campo de entrada */
+  border: 1px solid #ccc; /* Borde alrededor del campo de entrada */
+  border-radius: 5px; /* Borde redondeado */
+  margin-right: 20px;
+}
+
+/* Estilo al pasar el cursor por encima del campo de entrada */
+input[type="text"]:hover {
+  border-color: #007BFF; /* Cambia el color del borde al pasar por encima */
+}
+
+/* Estilo al enfocar el campo de entrada */
+input[type="text"]:focus {
+  outline: none; /* Elimina el contorno al enfocar el campo de entrada */
+  border-color: #0056b3; /* Cambia el color del borde al enfocar */
 }
